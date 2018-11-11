@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 10, 2018 at 08:14 PM
+-- Generation Time: Nov 11, 2018 at 05:26 PM
 -- Server version: 10.1.36-MariaDB
 -- PHP Version: 7.2.11
 
@@ -25,10 +25,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `lab_connect_mysql`
+-- Table structure for table `content`
 --
 
-CREATE TABLE `lab_connect_mysql` (
+CREATE TABLE `content` (
   `std_id` varchar(11) NOT NULL,
   `std_name` varchar(50) NOT NULL,
   `std_tel` varchar(50) NOT NULL,
@@ -36,10 +36,10 @@ CREATE TABLE `lab_connect_mysql` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `lab_connect_mysql`
+-- Dumping data for table `content`
 --
 
-INSERT INTO `lab_connect_mysql` (`std_id`, `std_name`, `std_tel`, `std_email`) VALUES
+INSERT INTO `content` (`std_id`, `std_name`, `std_tel`, `std_email`) VALUES
 ('593020499-2', 'Boodsakorn', '0610481032', 'water@hotmail.com');
 
 --
@@ -47,9 +47,9 @@ INSERT INTO `lab_connect_mysql` (`std_id`, `std_name`, `std_tel`, `std_email`) V
 --
 
 --
--- Indexes for table `lab_connect_mysql`
+-- Indexes for table `content`
 --
-ALTER TABLE `lab_connect_mysql`
+ALTER TABLE `content`
   ADD PRIMARY KEY (`std_id`);
 COMMIT;
 
